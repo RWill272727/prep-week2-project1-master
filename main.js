@@ -142,14 +142,12 @@ document.getElementById("infoA").addEventListener("click", function() {
 //     The rectangle is: 2 inches by 3 inches
 //     Display the result in the HTML page.
 
+var height = 2;
+var length = 3;
+var area = height*length;
+document.getElementById("qb").innerHTML = "The area of the rectangle is " + area + ".";
 
-
-
-
-
-// C. Collect the use's length and width input to determine the area of a rectangle and display within the HTML page the result.
-
-
+// C. Collect the user's length and width input to determine the area of a rectangle and display within the HTML page the result.
 
 
 
